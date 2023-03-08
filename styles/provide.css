@@ -1,0 +1,62 @@
+.provide{
+  display: flex;
+  padding-bottom: 100px;
+  border-bottom: 1px solid #ECECEC;
+
+}
+
+.provide-inner, .provide-advateges{
+  width: 50%;
+}
+
+.provide-inner{
+  padding-right: px;
+
+}
+.provide-inner__title{
+  text-transform: uppercase;
+  line-height: 55px;
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+
+.provide-inner__description{
+  margin-bottom: 64px;
+  
+}
+.provide-inner__button{
+  background-color: transparent;
+  border: 2px solid #FF0000;
+  padding: 15px 60px;
+  color: #FF0000;
+  transition: 2s;
+  border-radius: 3px;
+
+}
+.provide-inner__button:hover {
+  background-color: #FF0000;
+  color:#ffffff;
+}
+
+.provide-advateges{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 52px 0;
+}
+.provide-advateges__item{
+  width: 49%;
+
+}
+.provide-advateges__icon{
+  margin-bottom: 32px;
+
+}
+
+.provide-advateges__title{
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+.provide-advateges__description{
+  width: 28px;
+}
