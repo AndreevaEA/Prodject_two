@@ -2,6 +2,7 @@
   display: flex;
   padding-bottom: 100px;
   border-bottom: 1px solid #ECECEC;
+  margin-bottom: 104px;
 
 }
 
@@ -10,18 +11,20 @@
 }
 
 .provide-inner{
-  padding-right: px;
+  padding-right:110px;
 
 }
 .provide-inner__title{
   text-transform: uppercase;
   line-height: 55px;
   font-size: 42px;
+  font-weight: 400;
   margin-bottom: 50px;
 }
 
 .provide-inner__description{
   margin-bottom: 64px;
+  line-height: 28px;
   
 }
 .provide-inner__button{
@@ -29,7 +32,7 @@
   border: 2px solid #FF0000;
   padding: 15px 60px;
   color: #FF0000;
-  transition: 2s;
+  transition: 0.5s;
   border-radius: 3px;
 
 }
@@ -58,5 +61,27 @@
   font-size: 24px;
 }
 .provide-advateges__description{
-  width: 28px;
+  /*width: 105px;*/
+  line-height: 28px;
+  
+}
+
+@media screen and (max-width: 768px){
+  .provide{
+    flex-direction: column;
+
+  }
+  .provide-inner{
+    width: 100%;
+    padding-right: 0;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .provide-advateges{
+    width: 100%;
+  }
+  .provide-advateges__item{
+    text-align: center;
+    width: 100%;
+  }
 }
